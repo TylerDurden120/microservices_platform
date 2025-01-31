@@ -1,0 +1,95 @@
+/* Reset some default styling */
+body, h2, p, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Form Container */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Group for Each Field */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Style */
+label {
+    font-weight: bold;
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Input Fields and Select Dropdown Styling */
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Textarea Specific Styling */
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Radio Button Group Styling */
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+}
